@@ -13,4 +13,12 @@ Vienna Ab-initio Simulation Packages is a common tools for DFT calculation. It c
 3. POTCAR : contains PseudoPotential (PP) and XC functional.
 4. KPOINTS : contains kpoints mesh.
 
-# Steps to create input files
+# Create input files
+1. At first create INCAR file with necessary tags for your system.
+2. Use VESTA to open CIF file and export data into POSCAR file.
+3. To create POTCAR file run: $ cat /home/.../VASP/vasp.6.x.x/PBE_pot/Mg/POTCAR > POTCAR
+4. To create KPOINTS file run: $ vaspkit
+    and select: 
+	            1 VASP Input-Files Kit
+	            102 Generate KPOINTS File for SCF Calculation
+	            and select options as necessary
