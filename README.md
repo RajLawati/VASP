@@ -7,5 +7,10 @@ Vienna Ab-initio Simulation Packages is a common tools for DFT calculation. It c
 3. VESTA
 4. gnuplot/xmgrace
 
-# General steps
-1. 
+# Inputs files
+1. INCAR : contains specific parameters/tags that control the calculation.
+2. POSCAR : contains position/geometry of the system.
+3. POTCAR : contains PseudoPotential (PP) and XC functional.
+4. KPOINTS : contains kpoints mesh.
+
+# Steps to create input files
