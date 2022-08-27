@@ -21,3 +21,6 @@ Vienna Ab-initio Simulation Packages is a common tools for DFT calculation. It c
 and select:
 - (1) VASP Input-Files Kit
 - (102) Generate KPOINTS File for SCF Calculation
+
+# command 
+$ mpirun -np 8 vasp_std
