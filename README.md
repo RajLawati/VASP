@@ -23,4 +23,4 @@ and select:
 - (102) Generate KPOINTS File for SCF Calculation
 
 # Command 
-$ mpirun -np 8 vasp_std
+$ mpirun -np 8 /home/.../vasp.6.x.x/bin/vasp_std
