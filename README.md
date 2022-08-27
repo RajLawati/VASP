@@ -19,6 +19,6 @@ Vienna Ab-initio Simulation Packages is a common tools for DFT calculation. It c
 3. To create POTCAR file run: $ cat /home/.../VASP/vasp.6.x.x/PBE_pot/Mg/POTCAR > POTCAR
 4. To create KPOINTS file run: $ vaspkit
     and select: 
-	      *1 VASP Input-Files Kit
-	      *102 Generate KPOINTS File for SCF Calculation
-	      *and select options as necessary
+	      * 1 VASP Input-Files Kit
+	      * 102 Generate KPOINTS File for SCF Calculation
+	      * and select options as necessary
