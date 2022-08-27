@@ -22,5 +22,5 @@ and select:
 - (1) VASP Input-Files Kit
 - (102) Generate KPOINTS File for SCF Calculation
 
-# command 
+# Command 
 $ mpirun -np 8 vasp_std
