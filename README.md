@@ -18,6 +18,6 @@ Vienna Ab-initio Simulation Packages is a common tools for DFT calculation. It c
 2. Use VESTA to open CIF file and export data into POSCAR file.
 3. To create POTCAR file run: $ cat /home/.../VASP/vasp.6.x.x/PBE_pot/Mg/POTCAR > POTCAR
 4. To create KPOINTS file run: $ vaspkit
-  - 1) VASP Input-Files Kit
-  - 102) Generate KPOINTS File for SCF Calculation
-  - and select options as necessary
+- 1) VASP Input-Files Kit
+- 102) Generate KPOINTS File for SCF Calculation
+- and select options as necessary
