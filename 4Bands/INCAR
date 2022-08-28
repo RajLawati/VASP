@@ -1,0 +1,39 @@
+# Bands
+
+# Global Parameters 
+System = Mg
+LCHARG = .TRUE.
+LWAVE  = .FALSE.
+ISTART = 1                 ! charge density read from CHGCAR
+ICHARG = 11                ! initial charge density for DOS
+PREC   = Accurate
+ADDGRID= .TRUE.
+NCORE  = 2
+
+
+# Electronic Optimization
+ALGO   = Normal
+ENCUT  = 520               ! 1.3*ENMAX
+EDIFF  = 1e-8              ! global break condition for the electronic SC-loop
+ISMEAR = 0                 ! gaussian method
+SIGMA  = 0.05              ! width of the smearing  
+ISYM   = 2                 ! symmetrization of the charge density 
+
+# Ionic Relaxation
+NSW    = 0                 ! number of ionic steps 
+IBRION = -1                ! no relaxation algorithm
+POTIM  = 0.5               ! step width in ionic relaxations 
+!ISIF   = 3                ! relaxating atoms, cell shape and cell volume
+EDIFFG = -0.0001           ! break condition for the ionic relaxation loop
+
+# Band Calculation
+LORBIT = 11                ! output DOSCAR and PROCAR (Total DOS and Partial DOS)
+NBANDS = *                 ! find it in the OUTCAR
+
+
+
+
+
+
+
+
